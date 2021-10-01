@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', serif;
+    box-sizing: border-box;
 }
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/rv.jpg');
-    height: 100vh;  
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-.title{
+.title {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,11 +32,11 @@ ul {
     margin-top: 25px;
 }
 
-ul li{
+ul li {
     display: inline-block;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
@@ -44,35 +44,35 @@ ul li a{
     transition: .3s ease;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: #fff;
     color: black;
 }
 
-ul li.active a{
+ul li.active a {
     background-color: #fff;
     color: black;
 }
 
-.logo img{
+.logo img {
     float: left;
     width: 150px;
     height: auto;
 }
 
-.main{
+.main {
     max-width: 1200px;
     margin: auto;
 }
 
-.button{
+.button {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.btn{
+.btn {
     border: 1px solid #fff;
     padding: 10px 30px;
     color: #fff;
@@ -81,8 +81,106 @@ ul li.active a{
     transition: 0.6s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #fff;
     color: #000;
 }
 
+.about {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.about__container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+.about__container-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about__item1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.about .about-img {
+    position: relative;
+    height: 100%;
+}
+
+.about .about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.about__item2 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.about__item2-header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.about_item2-header, p {
+    color: navy;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.about_item2-header, h2 {
+    margin: 0;
+    position: relative;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.about_item2-header, .about-text{
+    font-size: 1rem;
+    color: #666;
+}
+.about-btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 0;
+    background: navy;
+    transition: .3s;
+    cursor: pointer;
+    border: none;
+}
+
+.about-btn:hover{
+background: white;
+color: navy;
+border: 1px solid navy;
+}
