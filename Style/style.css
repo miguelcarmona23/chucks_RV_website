@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --background-color: #003554;
+    --button-color1:#e3a900;
+    --button-hover-color:#00a6fc;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -173,14 +181,13 @@ ul li.active a {
     letter-spacing: 1px;
     color: white;
     border-radius: 0;
-    background: navy;
+    background:var(--button-color1);
     transition: .3s;
     cursor: pointer;
     border: none;
 }
 
 .about-btn:hover{
-background: white;
-color: navy;
-border: 1px solid navy;
+background: var(--button-hover-color);
+color: white;
 }
