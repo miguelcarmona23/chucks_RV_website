@@ -266,6 +266,85 @@ color: white;
 }
 /* ------------END OF SERVICE SECTION------------ */
 
+/* ------------PRODUCT SECTION------------ */
+.product{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 25px 0;
+    padding-bottom: 25px;
+    background-color: var(--background-color);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.product__container{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product__container .product__info{
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) {
+    .product__info{
+        width: 66.66666667%;
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .product__info{
+        float: none;
+    }
+}
+
+.product h2{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-style: italic;
+    line-height: .956;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    color: white;
+    padding: 30px 0;
+    letter-spacing: 1.1px;
+    font-size: 1.875rem;
+}
+
+.product p{
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    color: white;
+}
+
+.product__container .product__image{
+    padding: 30px 40px;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+}
+
+@media (min-width: 992px) {
+    .product__container .product__image{
+        width: 33.33333333%;
+    }
+}
+/* ------------END OF PRODUCT SECTION------------ */
+
 .footer{
     background-image: url("/Images/pattern-overlay.png");
     background-repeat: repeat;
