@@ -380,7 +380,11 @@ color: white;
 }
 
 .footer__items{
-    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
