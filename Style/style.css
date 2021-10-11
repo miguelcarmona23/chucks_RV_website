@@ -193,3 +193,21 @@ ul li.active a {
 background: var(--button-hover-color);
 color: white;
 }
+
+@media only screen and (max-width: 500px) {
+    .about__container-items{
+        flex-direction: column;
+    }
+    .about__item1{
+        order: 1;
+    }
+    .about__item2{
+        order: 2;
+    }
+    .about_item2-header, p {
+        font-size: 1rem;
+    }
+    .about_item2-header, h2 {
+        font-size: 2.1rem;
+    }
+}
