@@ -364,5 +364,13 @@ color: white;
 .footer__link{
     line-height: unset;
     font-size: 1.1vw;
+}
 
+@media only screen and (max-width: 1000px) {
+    .footer__link{
+        font-size: 1.5vw;
+    }
+    .footer__list{
+        font-size: 1.5vw;
+    }
 }
