@@ -331,6 +331,8 @@ color: white;
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
+    font-size: 1.1vw;
+
 }
 
 .footer ul li a {
@@ -361,4 +363,6 @@ color: white;
 }
 .footer__link{
     line-height: unset;
+    font-size: 1.1vw;
+
 }
