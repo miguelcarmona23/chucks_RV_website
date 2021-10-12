@@ -349,7 +349,8 @@ color: white;
 .footer__header{
     color: var(--background-color);
     font-family: var(--font-family);
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: calc(12pt + .4vw);
     padding-bottom: 10px;
     text-transform: uppercase;
     text-shadow: 0 2px 1.96px rgb(120 117 117 / 35%);
