@@ -427,6 +427,8 @@ color: white;
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
+    font-size: 1.1vw;
+
 }
 
 .footer ul li a {
@@ -445,7 +447,8 @@ color: white;
 .footer__header{
     color: var(--background-color);
     font-family: var(--font-family);
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: calc(12pt + .4vw);
     padding-bottom: 10px;
     text-transform: uppercase;
     text-shadow: 0 2px 1.96px rgb(120 117 117 / 35%);
@@ -456,4 +459,27 @@ color: white;
 }
 .footer__link{
     line-height: unset;
+    font-size: 1.1vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer__link{
+        font-size: 1.5vw;
+    }
+    .footer__list{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer__items{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .footer__link{
+        font-size: 2.75vw;
+    }
+    .footer__list{
+        font-size: 2.75vw;
+    }
 }
