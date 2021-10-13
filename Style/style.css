@@ -200,9 +200,11 @@ color: white;
     }
     .about__item1{
         order: 1;
+        max-width: none;
     }
     .about__item2{
         order: 2;
+        max-width: none;
     }
     .about_item2-header, p {
         font-size: 1rem;
