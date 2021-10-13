@@ -200,9 +200,11 @@ color: white;
     }
     .about__item1{
         order: 1;
+        max-width: none;
     }
     .about__item2{
         order: 2;
+        max-width: none;
     }
     .about_item2-header, p {
         font-size: 1rem;
@@ -211,6 +213,8 @@ color: white;
         font-size: 2.1rem;
     }
 }
+<<<<<<< HEAD
+=======
 /* -----------END OF ABOUT SECTION----------- */
 
 /* -----------SERVICE SECTION----------- */
@@ -483,3 +487,4 @@ color: white;
         font-size: 2.75vw;
     }
 }
+>>>>>>> 6a0e6974a4d54d7ea2ee1154e072224b0fc7d73f
