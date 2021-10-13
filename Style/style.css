@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 :root{
     --background-color: #003554;
     --button-color1:#e3a900;
     --button-hover-color:#00a6fc;
+    --font-size: 1rem;
+    --font-family: 'Poppins', san-serif;
 }
-
 
 * {
     margin: 0;
@@ -93,7 +93,7 @@ ul li.active a {
     background-color: #fff;
     color: #000;
 }
-
+/* ------------ABOUT SECTION------------ */
 .about {
     position: relative;
     width: 100%;
@@ -183,7 +183,7 @@ ul li.active a {
     letter-spacing: 1px;
     color: white;
     border-radius: 0;
-    background:var(--button-color1);
+    background: var(--button-color1);
     transition: .3s;
     cursor: pointer;
     border: none;
@@ -213,3 +213,278 @@ color: white;
         font-size: 2.1rem;
     }
 }
+<<<<<<< HEAD
+=======
+/* -----------END OF ABOUT SECTION----------- */
+
+/* -----------SERVICE SECTION----------- */
+.service{
+    background-image: url("/Images/pattern-overlay.png");
+    background-repeat: repeat;
+    padding: 1.5% 4%;
+    color: #fff;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8vw;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    margin-top: 10px;
+}
+
+.service__container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service__item{
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service__item-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.service__item-box p {
+    color: var(--background-color);
+    font-size: 1.5vw;
+    display: inline;
+    margin: 0;
+}
+
+.service__item-box a{
+    text-decoration: none;
+}
+.service__item-btn{
+    background: #fff;
+    text-align: center;
+    border-radius: 0 !important;
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: .956;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    margin: 20px;
+    padding: 8px 70px;
+    font-family: var(--font-family);
+}
+
+.service__item-btn a:hover{
+    color: #e3a900;
+}
+/* ------------END OF SERVICE SECTION------------ */
+
+/* ------------PRODUCT SECTION------------ */
+.product{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 25px 0;
+    padding-bottom: 25px;
+    background-color: var(--background-color);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.product__container{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product__container .product__info{
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 992px) {
+    .product__info{
+        width: 66.66666667%;
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .product__info{
+        float: none;
+    }
+}
+
+.product h2{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-style: italic;
+    line-height: .956;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    color: white;
+    padding: 30px 0;
+    letter-spacing: 1.1px;
+    font-size: 1.875rem;
+}
+
+.product p{
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+    color: white;
+}
+
+.product__container .product__image{
+    padding: 30px 40px;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+}
+
+@media (min-width: 992px) {
+    .product__container .product__image{
+        width: 33.33333333%;
+    }
+}
+/* ------------END OF PRODUCT SECTION------------ */
+
+.footer{
+    background-image: url("/Images/pattern-overlay.png");
+    background-repeat: repeat;
+    font-size: 1.1vw;
+    font-family: var(--font-family);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    padding: 1.5% 4%;
+    text-transform: uppercase;
+}
+
+.footer__container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__container::before{
+    display: table;
+    content: " ";
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.logo-img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1vw;
+
+}
+
+.footer ul li a {
+    color: black;
+    border: none;
+}
+
+.footer ul li a:hover {
+    color: var(--button-hover-color);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+
+.footer__header{
+    color: var(--background-color);
+    font-family: var(--font-family);
+    /* font-size: 1.5vw; */
+    font-size: calc(12pt + .4vw);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 1.96px rgb(120 117 117 / 35%);
+    transform: scale(1,1.25);
+    -moz-transform: scale(1,1.25);
+    -webkit-transform: scale(1,1.25);
+    -ms-transform: scale(1,1.25);
+}
+.footer__link{
+    line-height: unset;
+    font-size: 1.1vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer__link{
+        font-size: 1.5vw;
+    }
+    .footer__list{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer__items{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .footer__link{
+        font-size: 2.75vw;
+    }
+    .footer__list{
+        font-size: 2.75vw;
+    }
+}
+>>>>>>> 6a0e6974a4d54d7ea2ee1154e072224b0fc7d73f
