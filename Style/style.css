@@ -235,7 +235,7 @@ color: white;
 
 .service__item-box p {
     color: var(--background-color);
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     display: inline;
     margin: 0;
 }
@@ -261,5 +261,17 @@ color: white;
 
 .service__item-btn a:hover{
     color: #e3a900;
+}
+
+@media (max-width:600px) {
+    .service__item-box {
+        flex-direction: column;
+    }
+    .service__item-box p{
+        font-size: 1.125rem;
+    }
+    .service__item-box a {
+        font-size: 1.125rem;
+    }
 }
 /* SERVICE SECTION */
