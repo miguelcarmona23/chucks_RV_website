@@ -337,6 +337,7 @@ color: white;
     }
     .product__container .product__image{
         width: 100%;
+        padding: 30px 15px;
     }
 }
 /* ------------END OF PRODUCT SECTION------------ */
