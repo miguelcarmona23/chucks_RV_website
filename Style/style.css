@@ -206,6 +206,9 @@ color: white;
         order: 2;
         max-width: none;
     }
+    .about__item2-header{
+        margin: 10px 0 10px 0;
+    }
     .about_item2-header, p {
         font-size: 1rem;
     }
