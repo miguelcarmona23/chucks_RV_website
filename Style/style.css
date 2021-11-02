@@ -333,7 +333,7 @@ color: white;
 .product h2{
     font-family: var(--font-family);
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: .956;
     transform: scale(1,1.25);
     -moz-transform: scale(1,1.25);
