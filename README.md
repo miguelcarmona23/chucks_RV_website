@@ -1,1 +1,3 @@
-# html_css_website_template
+# Website Mockup
+
+This is a HTML & CSS website mockup.
