@@ -1,5 +1,5 @@
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/about_header_photo.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/about_header_photo.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -57,14 +57,14 @@ header {
 }
 
 @media only screen and (max-width: 500px) {
-    .about__container--content{
+    .about__container--content {
         flex-direction: column;
     }
-    .about__image{
+    .about__image {
         order: 1;
         max-width: none;
     }
-    .about__info{
+    .about__info {
         order: 2;
         max-width: none;
     }
