@@ -14,11 +14,33 @@
     box-sizing: border-box;
 }
 
+/* ------------NAVBAR SECTION------------ */
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/rv.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem 1.5rem; */
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 .title {
@@ -94,6 +116,40 @@ ul li.active a {
     background-color: #fff;
     color: #000;
 }
+
+@media only screen and (max-width: 768px) {
+    .main {
+        background-color: #fff;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        margin: 0.625rem;
+        display: block;
+        cursor: pointer;
+    }
+}
+/* ------------END OF NAVBAR SECTION------------ */
+
 /* ------------ABOUT SECTION------------ */
 .about {
     position: relative;
