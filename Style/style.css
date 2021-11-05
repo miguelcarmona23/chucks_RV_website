@@ -121,9 +121,9 @@ ul li.active a {
     .main {
         background-color: #fff;
     }
-    .header {
+    /* .header {
         border-bottom: 1px solid #E2E8F0;
-    }
+    } */
     .nav-menu {
         display: flex;
         position: fixed;
@@ -154,7 +154,7 @@ ul li.active a {
     }
 
     .hamburger {
-        margin: 0.625rem;
+        margin: 1.5625rem;
         display: block;
         cursor: pointer;
     }
