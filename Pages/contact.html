@@ -2,32 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contact | Chuck's RV</title>
-    <link rel="icon" href="../Images/rv_tab_logo.png">
+    <link rel="icon" href="../Images/rv_tab_logo.png" />
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="../Style/style.css">
-    <link rel="stylesheet" type="text/css" href="../Style/contact.css">
-
+    <link rel="stylesheet" type="text/css" href="../Style/style.css" />
+    <link rel="stylesheet" type="text/css" href="../Style/contact.css" />
 </head>
 
 <body>
     <!-- NAVBAR/HERO SECTION -->
-    <header>
+    <header class="header">
         <div class="main">
-            <div class="logo">
-                <a href="/index.html"><img src="../Images/chucksLogo.png" alt="Logo"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/Pages/about.html">About</a></li>
-                    <li><a href="/Pages/gallery.html">Gallery</a></li>
-                    <li><a href="/Pages/services.html">Services</a></li>
-                    <li class="active"><a href="/Pages/contact.html">Contact</a></li>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="/index.html" class="nav-logo"><img src="../Images/chucksLogo.png" alt="Logo" /></a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pages/about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pages/gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Pages/services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="active">
+                        <a href="/Pages/contact.html" class="nav-link">Contact</a>
+                    </li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </div>
         <div class="title">
@@ -46,54 +60,59 @@
             <div class="form__content">
                 <div class="form__title--header">
                     <h2 class="form__title">Contact</h2>
-                    <hr>
+                    <hr />
                 </div>
-                    <div class="form__container--content">
-                        <p>
-                            <label for="First Name">First Name <span class="form-required">*</span>
-                                <br>
-                                <input type="text" name="first-name" value="" size="40" required>
-                            </label>
-                        </p>
-                        <p>
-                            <label for="Last Name"> Last Name <span class="form-required">*</span>
-                                <br> 
-                                <input type="text" name="first-name" value="" size="40" required>
-                            </label>
-                        </p>
-                        <p class="form-disclaimer"> (Either Phone Number or Email Address is required.)</p>
-                        <p>
-                            <label for="Phone Number"> Phone Number <span class="form-required">*</span>
-                                <br> 
-                                <input type="text" name="first-name" value="" size="40" required>
-                            </label>
-                        </p>
-                        <p>
-                            <label for="Email Address"> Email Address <span class="form-required">*</span>
-                                <br> 
-                                <input type="text" name="first-name" value="" size="40" required>
-                            </label>
-                        </p>
-                        <p>
-                            <label> Comments
-                                <br> 
-                                <textarea name="comments" cols="40" rows="10">
-                                </textarea>
+                <div class="form__container--content">
+                    <p>
+                        <label for="First Name">First Name <span class="form-required">*</span>
+                            <br />
+                            <input type="text" name="first-name" value="" size="40" required />
                         </label>
-                        </p>
-                        <p>By submitting this form, you agree to the <a href="#">Terms of Use</a> &amp; our <a href="#">Privacy Policy</a></p>
-                        <br>
-                        <input type="submit" value="Submit" class="btn btn-primary">
-                    </div>
+                    </p>
+                    <p>
+                        <label for="Last Name">
+                            Last Name <span class="form-required">*</span>
+                            <br />
+                            <input type="text" name="first-name" value="" size="40" required />
+                        </label>
+                    </p>
+                    <p class="form-disclaimer">
+                        (Either Phone Number or Email Address is required.)
+                    </p>
+                    <p>
+                        <label for="Phone Number">
+                            Phone Number <span class="form-required">*</span>
+                            <br />
+                            <input type="text" name="first-name" value="" size="40" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Email Address">
+                            Email Address <span class="form-required">*</span>
+                            <br />
+                            <input type="text" name="first-name" value="" size="40" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Comments
+                            <br />
+                            <textarea name="comments" cols="40" rows="10"> </textarea>
+                        </label>
+                    </p>
+                    <p>
+                        By submitting this form, you agree to the
+                        <a href="#">Terms of Use</a> &amp; our
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                    <br />
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </div>
             </div>
-
         </form>
-
     </section>
 
     <!-- END OF FORM SECTION -->
-
-
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
@@ -101,7 +120,7 @@
             <div class="footer__menu">
                 <div class="footer__items">
                     <a href="/index.html">
-                        <img src="/Images/chucksLogo.png" class="logo-img" alt="Chucks RV Logo">
+                        <img src="/Images/chucksLogo.png" class="logo-img" alt="Chucks RV Logo" />
                     </a>
                 </div>
                 <div class="footer__items">
@@ -164,7 +183,8 @@
         </div>
     </footer>
     <!-- END OF FOOTER SECTION -->
-
+    <!-- Javascript -->
+    <script src="../JS/main.js"></script>
 </body>
 
 </html>
