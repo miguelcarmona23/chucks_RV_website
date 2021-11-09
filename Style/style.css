@@ -126,7 +126,7 @@ ul li.active a {
     } */
     .nav-menu {
         display: flex;
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 3.5rem;
         flex-direction: column;
