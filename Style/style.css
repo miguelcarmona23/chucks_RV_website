@@ -169,8 +169,32 @@ ul li.active a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .home h1 {
+        font-size: 3.4375rem;
+    }
     .title {
         z-index: 1;
+    }
+    .header {
+        height: 50vh;
+    }
+    .title {
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home h1 {
+        font-size: 2.1875rem;
+    }
+    .title {
+        z-index: 1;
+    }
+    .header {
+        height: 40vh;
+    }
+    .title {
+        top: 25%;
     }
 }
 /* ------------END OF NAVBAR SECTION------------ */
