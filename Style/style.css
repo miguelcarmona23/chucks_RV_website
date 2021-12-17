@@ -196,6 +196,9 @@ ul li.active a {
     .title {
         top: 25%;
     }
+    .nav-item {
+        margin: 1rem 0;
+    }
 }
 /* ------------END OF NAVBAR SECTION------------ */
 
